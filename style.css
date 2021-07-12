@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+/* Media Querry*/
+
+/* blocco lezioni */
+@media screen and (max-width: 420px) {
+  
+  body #lezioni .row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
+  body #lezioni .row h1,
+  body #lezioni .row .left,
+  body #lezioni .row .right{
+    width: 100%;
+  }
+}
+/* blocco steps */
+@media screen and (max-width: 420px) {
+  
+}
