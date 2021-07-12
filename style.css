@@ -74,7 +74,7 @@ img {
 /* Media Querry*/
 
 /* blocco lezioni */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 421px) {
   *{
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ img {
   }
 }
 /* blocco steps */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 421px) {
   body #steps>.row{
     display: flex;
     align-items: center;
