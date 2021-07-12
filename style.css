@@ -75,7 +75,14 @@ img {
 
 /* blocco lezioni */
 @media screen and (max-width: 420px) {
-  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .row {
+    max-width: 420px;
+  }
   body #lezioni .row{
     display: flex;
     align-items: center;
@@ -90,5 +97,16 @@ img {
 }
 /* blocco steps */
 @media screen and (max-width: 420px) {
-  
+  body #steps>.row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
+  body #steps>.row>h1,
+  body #steps>.row>.left,
+  body #steps>.row>.central,
+  body #steps>.row>.right{
+    width: 100%;
+  }
 }
