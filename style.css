@@ -78,20 +78,22 @@ img {
   *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
   }
   /* BLOCCO LEZIONI */
   .row {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 0;
+    padding-top: 10px;
   }
-  /* #lezioni .row>h1{
-    width: 100%;
-  } */
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: left;
+    padding-top: 20px;
+  }
+  #lezioni .row>.right{
+    padding-bottom: 10px;
   }
   img {
     height: 100px;
@@ -104,6 +106,10 @@ img {
   #steps .row>.right {
     float: left;
     width: 100%;
+    padding-top: 10px;
+  }
+  #steps .row>.right {
+    padding-bottom: 10px;
   }
 
   /* BLOCCO PERCHE */
@@ -114,71 +120,13 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    margin-top: 40px;
-  }
-
-  
-  
-  /* body{
-    background-color: #f2f2cd;
-  }
-  .row {
-    width: 420px;
-    padding-top: 20px;
-    margin-top: 0;
-    text-align: center;
-  }
-  body #lezioni .row{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-  }
-  #lezioni .row img {
-    display: flex;
-    margin: auto;
-}
-  body #lezioni .row h1,
-  body #lezioni .row .left,
-  body #lezioni .row .right{
-    width: 100%;
-  }
-  body #lezioni .row .right{
-    padding-top: 20px;
-  }
-  body #lezioni .row .right{
-    padding-bottom: 20px;
-  }
-  body #steps>.row{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-  }
-  body #steps>.row>h1,
-  body #steps>.row>.left,
-  body #steps>.row>.central,
-  body #steps>.row>.right{
-    width: 100%;
-  }
-  body #steps>.row>.left,
-  body #steps>.row>.central,
-  body #steps>.row>.right{
-    margin-bottom: 20px;
-  }
-  #steps.container.grey {
-    min-width: 420px;
-  }
-  #why .row>.first, #why .row>.second,
-  #why .row>.third {
-    width: 100%;
     margin-top: 20px;
   }
   #why .row>.third{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
-  body #why.container.grey{
+  #lezioni .row,
+  #why .row{       
     background-color: #f2f2cd;
-    min-width: 420px;
-  } */
+  }
 }
