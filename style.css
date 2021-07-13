@@ -130,3 +130,59 @@ img {
     background-color: #f2f2cd;
   }
 }
+@media screen and (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  /* BLOCCO LEZIONI */
+  .row {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+  }
+  #lezioni .row>.right{
+    padding-bottom: 10px;
+  }
+  img {
+    height: 100px;
+  }
+
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+  }
+  #steps .row>.right {
+    padding-bottom: 10px;
+  }
+
+  /* BLOCCO PERCHE */
+  #why {
+    text-align: center;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+  #why .row>.third{
+    padding-bottom: 10px;
+  }
+  #lezioni .row,
+  #why .row{       
+    background-color: #f2f2cd;
+  }
+}
